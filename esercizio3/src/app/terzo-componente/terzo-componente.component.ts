@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 })
 export class TerzoComponenteComponent {
 likes:number=0;
+disabled=false;
 constructor(){
 
 this.likes = Math.floor(Math.random() * 100 );
@@ -34,6 +35,9 @@ if(this.likes<33 ){
 clickBottone(){
   this.likes = this.likes + 1;
   this.likeChecker();
+  if(this.likes == 100){
+    this.disabled = true;
+  }
 }
 
 }
