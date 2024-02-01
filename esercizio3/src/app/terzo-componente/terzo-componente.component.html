@@ -1,6 +1,6 @@
 <p>{{likes}}</p>
 
-<mat-progress-bar class="barra" mode="determinate" [value]="likes"></mat-progress-bar>
+<mat-progress-bar class="barra" mode="determinate" [value]="likes" [color]="likeChecker()"></mat-progress-bar>
 <div class="example-button-row">
     <button [disabled]="disabled" mat-raised-button color="primary" (click)="clickBottone()" [color]="likeChecker()">like</button>
   </div>

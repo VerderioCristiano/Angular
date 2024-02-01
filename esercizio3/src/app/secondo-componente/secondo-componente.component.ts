@@ -11,12 +11,5 @@ import { QuartoComponenteComponent } from '../quarto-componente/quarto-component
 })
 export class SecondoComponenteComponent {
 
-array = [{
-  nome1 : "Balcani", 
-  desc1 : "catena montuosa dei Balcani"
-},
-{
-  nome2 : "Himalaya",
-  desc2 : "catena montuosa dell'Himalaya"
-}]
+array = [{nome1 : "Balcani", desc1 : "catena montuosa dei Balcani"}, {nome2 : "Himalaya",desc2 : "catena montuosa dell'Himalaya"}]
 }
