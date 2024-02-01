@@ -1,4 +1,9 @@
 .immagine{
     height: 200px;
     width: 200px;
+    
+}
+
+.sfondo{
+    background-color: crimson;
 }

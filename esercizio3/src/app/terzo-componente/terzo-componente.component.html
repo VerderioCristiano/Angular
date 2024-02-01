@@ -1,2 +1,4 @@
 <mat-progress-bar class="barra" mode="determinate" [value]="likes"></mat-progress-bar>
-<button (click)="clickBottone()">Like</button>
+<div class="example-button-row">
+    <button mat-raised-button color="primary" (click)="clickBottone()" [color]="likeChecker()">like</button>
+  </div>
