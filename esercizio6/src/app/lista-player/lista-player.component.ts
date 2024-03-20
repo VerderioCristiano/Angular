@@ -10,8 +10,8 @@ import { Component } from '@angular/core';
 })
 export class ListaPlayerComponent {
   player = [
-    {ruolo:'toplaner', età:'20', team:'T1', nickname:'Zeus', immagine:'https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/39/T1_Zeus_2024_Split_1.png/revision/latest?cb=20240209182021', nazionalità:'corea',link:'https://lol.fandom.com/wiki/Zeus'},
-    {ruolo:'jungler', età:'21', team:'T1', nickname:'Oner', immagine:'https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/1a/T1_Oner_2022_Split_2.png/revision/latest/scale-to-width-down/250?cb=20220619004417', nazionalità:'corea',link:'https://lol.fandom.com/wiki/Oner'},
+    {ruolo:'toplaner', età:'20', team:'T1', nickname:'Zeus', immagine:'./assets/T1_Zeus_2024_Split_1.png', nazionalità:'corea',link:'https://lol.fandom.com/wiki/Zeus'},
+    {ruolo:'jungler', età:'21', team:'T1', nickname:'Oner', immagine:'./assets/T1_Oner_2022_Split_2.png', nazionalità:'corea',link:'https://lol.fandom.com/wiki/Oner'},
     {ruolo:'midlaner', età:'27', team:'T1', nickname:'Faker', immagine:'https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/3d/T1_Faker_2024_Split_1.png/revision/latest?cb=20240209182111', nazionalità:'corea',link:'https://lol.fandom.com/wiki/Faker'},
     {ruolo:'support', età:'21', team:'T1', nickname:'Keria', immagine:'https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/06/T1_Keria_2024_Split_1.png/revision/latest?cb=20240209182121', nazionalità:'corea',link:'https://lol.fandom.com/wiki/Keria'},
     {ruolo:'adc', età:'24', team:'T1', nickname:'Gumayusi', immagine:'https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0b/T1_Gumayusi_2024_Split_1.png/revision/latest?cb=20240209182116', nazionalità:'corea',link:'https://lol.fandom.com/wiki/Gumayusi'},
