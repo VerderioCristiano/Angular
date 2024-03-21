@@ -27,9 +27,9 @@
               <img style="max-height: 150px;" src="./assets/T1LOGO.png" alt="">
             </div>
 
-            <div class="card" *ngFor="let element of player, index as i" style='border: solid; border-color: rgb(0, 0, 0); align-items: center; width: 400px;  margin-left: auto; margin-right: auto;' [ngClass]="{'adc' : element.ruolo == 'adc', 'toplaner' : element.ruolo == 'toplaner', 'jungler' : element.ruolo == 'jungler', 'midlaner' : element.ruolo == 'midlaner', 'support' : element.ruolo == 'support' }">
+            <div class="card" *ngFor="let element of player, index as i" style='border: solid; border-color: rgb(0, 0, 0); align-items: center; height: 280px; width: 400px;  margin-left: auto; margin-right: auto;' [ngClass]="{'adc' : element.ruolo == 'adc', 'toplaner' : element.ruolo == 'toplaner', 'jungler' : element.ruolo == 'jungler', 'midlaner' : element.ruolo == 'midlaner', 'support' : element.ruolo == 'support' }">
               <div>
-                <img style="max-width: 150px; max-height: 150px;" class="immagine" src="{{element.immagine}}" alt="Image">
+                <img style="max-width: 100px; max-height: 100px;" class="immagine" src="{{element.immagine}}" alt="Image">
                 <div class="content" >
                   <p style="font-family: sans-serif;">
                   <strong>
@@ -77,9 +77,9 @@
             <div>
               <img style=" max-height: 150px;" src="./assets/download.png" alt="">
             </div>
-            <div class="card" *ngFor="let element of player1, index as i" style='border: solid; border-color: rgb(0, 0, 0); align-items: center; width: 400px;  margin-left: auto; margin-right: auto;' [ngClass]="{'adc' : element.ruolo == 'adc', 'toplaner' : element.ruolo == 'toplaner', 'jungler' : element.ruolo == 'jungler', 'midlaner' : element.ruolo == 'midlaner', 'support' : element.ruolo == 'support' }">
+            <div class="card" *ngFor="let element of player1, index as i" style='border: solid; border-color: rgb(0, 0, 0); align-items: center; height: 280px; width: 400px;  margin-left: auto; margin-right: auto;' [ngClass]="{'adc' : element.ruolo == 'adc', 'toplaner' : element.ruolo == 'toplaner', 'jungler' : element.ruolo == 'jungler', 'midlaner' : element.ruolo == 'midlaner', 'support' : element.ruolo == 'support' }">
               <div>
-                <img style=" max-width: 150px; max-height: 150px;" class="immagine" src="{{element.immagine}}" alt="Image">
+                <img style=" max-width: 100px; max-height: 100px;" class="immagine" src="{{element.immagine}}" alt="Image">
                 <div class="content" >
                   <p style="font-family: sans-serif;">
                   <strong>
