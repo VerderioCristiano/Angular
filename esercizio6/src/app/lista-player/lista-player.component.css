@@ -15,3 +15,11 @@
 .jungler{
     background-color: brown;
 }
+.badge{
+    background-color:black;
+    padding: 4px 8px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 150%;
+    float: bottom;
+}
